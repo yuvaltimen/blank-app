@@ -49,7 +49,7 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
 
     st.subheader("Original Image")
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
 
     # Convert to ASCII
     ascii_art = image_to_ascii(image, new_width=80)
