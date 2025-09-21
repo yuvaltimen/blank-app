@@ -53,47 +53,6 @@ if uploaded_file is not None:
 
     # Convert to ASCII
     ascii_art = image_to_ascii(image, new_width=80)
-#     ascii_art = """
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxcddddddddvxxxxxxJddddddddddddxxxxxxxdddddddddddpxxxxxxxxxxddddddddddqxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddZxxxxxx.
-# .xxxxxxxxxxxxddddddd.U@@@q.0dddddddq.d@@@@@@@@[-ddddddd.;@@@@@@@8.]dddddddddd'@@@@@@@`(dddddddxxxx.
-# .xxxxxxxxxxxddddd.@@@@@@@@@..ddd.@@@@@@@@@@@@@@@@...@@@@@@@@@@@@@@@@@.ddd.@@@@@@@@@@@@@@@@.dddddxxx.
-# .xxxxxxxxxpdddd.^@@@@@@@@@@....@@@@@@@@@@@@@@@@@@;@@@@@@@@@@@@@@@@@@@...@@@@@@@@@@@@@@@@@@@.wdddxxx.
-# .xxxxxxxxddddd.@@@@@@@@@@@>...@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@..@@@@@@@@@@@@@@@@@@@@..dddxxx.
-# .xxxxxxxddddp.@@@@@@@@@@@/...@@@@@@@@@@........@@@@@@@@@@...@@@@@@@@@`@@@@@@@@@B..@@@@@@@@@..dddxxx.
-# .xxxxxxdddd}.@@@@@@@@@@@\.."@@@@@@@@@@@@@@@@..@@@@@@@@@p..z@@@@@@@@.^@@@@@@@@@"..M@@@@@@@@@.ddddxxx.
-# .xxxxxdddd`.@@@@@@@@@@@....@@@@@@@@@@@@@@@@@.@@@@@@@@@}@@@@@@@@@@@..@@@@@@@@@...}@@@@@@@@@..ddddxxx.
-# .xxxxddddI.@@@@@@@@@@@....@@@@@@@@@@@@@@@@@.@@@@@@@@@\.@@@@@@@@@@@.@@@@@@@@@"..l@@@@@@@@@..ddddxxxx.
-# .xxxYdddY.@@@@@@@@@@@....@@@@@@@@@@@@@@@m..W@@@@@@@@@..@@@@@@@@@@@@@@@@@@@@Z../@@@@@@@@@(.ddddxxxxx.
-# .xxxdddd.`@@@@@@@@@@@@@?.@@@@@@@@@@@@@@@@..@@@@@@@@@...@@@@@@@@@@.@@@@@@@@@..@@@@@@@@@@l.ddddxxxxxx.
-# .xxxddd..@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.@@@@@@@@@@@@@@@@@@@@@..@@@@@@@@@@@@@@@@@@@@.]ddddxxxxxxx.
-# .xxxddd..@@@@@@@@@@@@@@@0@@@@@@@@@@@@@@@@@.@@@@@@@@@@@@@@@@@@@b...@@@@@@@@@@@@@@@@@@@.dddddxxxxxxxx.
-# .xxxdddd.|@@@@@@@@@@@@@C..@@@@@@@@@@@@@@@.].@@@@@@@@@@@@@@@@.ddddp.@@@@@@@@@@@@@@@&;dddddXxxxxxxxxx.
-# .xxxxdddddd.\@@@@@@!,ddddddd.c@@@@@@&.0dddddddt.@@@@@@@]`dddddddddddd.f@@@@@@@`fdddddddOxxxxxxxxxxx.
-# .xxxxxJdddddddddddddddddddddddddddddddddddddddddddddddddddddddnxdddddddddddddddddddddxxxxxxxxxxxxxx.
-# .xxxxxxxxxxdddddddddOxxxxxxnddddddddddUxxxxxxx0ddddddddddxxxxxxxxxxxxddddddddddmxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
-# ....................................................................................................
-# """
 
 
     st.subheader("ASCII Image")
