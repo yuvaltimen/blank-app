@@ -31,6 +31,7 @@ def text_to_ascii_image_with_font(
         # Measure by using a representative character
         # Use "M" or some typical wide char
         (char_width, char_height) = font.getbbox("M")[2:4]
+        print(char_width, char_height)
         max_line_len = max(len(line) for line in lines)
         img_width = char_width * max_line_len + 2 * padding
         img_height = char_height * len(lines) + 2 * padding
@@ -68,7 +69,7 @@ def image_to_ascii(image: Image.Image, new_width: int = 600) -> str:
     # Resize image to maintain aspect ratio (height adjusted for char proportions)
     width, height = image.size
     aspect_ratio = height / width
-    new_height = int(aspect_ratio * new_width * 0.55)  # 0.55 compensates font aspect ratio
+    new_height = int(aspect_ratio * new_width * 0.8)  # 0.8 compensates font aspect ratio
     image = image.resize((new_width, new_height))
 
     # Convert to grayscale
@@ -91,7 +92,7 @@ st.title("Image -> ASCII Art")
 # Upload image file
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
-max_width = st.slider("Line width (in ASCII characters)", min_value=100, max_value=400, value=300)
+max_width = st.slider("Line width (in ASCII characters)", min_value=50, max_value=400, value=300)
 
 
 if uploaded_file is not None:
